@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-Horoscope::Application.load_tasks
+HoroscopeApp::Application.load_tasks

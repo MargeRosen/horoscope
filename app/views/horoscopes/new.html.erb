@@ -1,0 +1,11 @@
+<h2>New Horoscope</h2>
+<%= form_for(@horoscope) do |f| %>
+  <p>
+    <%= f.label :birthdate %><br />
+    <!#  dates are tricky define the db as datetime and use>
+    <!#  date_select  for user entered date select menue>
+    <%= f.date_select :birthdate %>
+  </p>
+
+  <%= f.submit %>
+<% end %>

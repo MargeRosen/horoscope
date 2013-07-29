@@ -1,4 +1,6 @@
-Horoscope::Application.routes.draw do
+HoroscopeApp::Application.routes.draw do
+  root :to => "horoscopes#index"
+  resources :horoscopes
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
