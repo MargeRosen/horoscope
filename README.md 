@@ -1,3 +1,10 @@
 README.md  Horoscope
 
 Find your astrological sign and get your horoscope for today.
+
+
+** Note: There are problems with form_for and Capybara with dates.  Experimented with three select :from=>  statements, but still got errors.  The browser displays Year, Month name and Day dropdown menue options, but the range is five years from today past and future.
+
+Researched StackOverflow and Capybara on Github (there was another broken date issue #199 that has not been resolved).
+
+More research is needed to learn how to get the dropdown year to display today's date and 100 years in the past.  And ofcourse, hw to test with dates in Capybara.
