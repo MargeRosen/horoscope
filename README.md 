@@ -7,4 +7,4 @@ Find your astrological sign and get your horoscope for today.
 
 Researched StackOverflow and Capybara on Github (there was another broken date issue #199 that has not been resolved).
 
-More research is needed to learn how to get the dropdown year to display today's date and 100 years in the past.  And ofcourse, hw to test with dates in Capybara.
+More research is needed to learn how to get the dropdown year to display today's date and 100 years in the past.  And of course, how to test with dates in Capybara.
